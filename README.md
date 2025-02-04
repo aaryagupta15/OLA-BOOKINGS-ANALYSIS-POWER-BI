@@ -1,16 +1,42 @@
-# OLA Data Analyst Project
+# OLA Bookings Power BI Analysis - Dashboard
 
-## Project Overview
-The OLA Data Analyst Project demonstrates a comprehensive approach to analyzing ride-hailing data using SQL and Power BI. This project includes SQL queries for data manipulation and analysis, a Power BI .pbix file for visualization, and a detailed PDF report explaining the project's context, questions, and answers.
+## 📌 Overview
+This repository contains a **Power BI Dashboard** for analyzing OLA ride bookings. The dashboard connects directly to a **database** to provide real-time insights into booking trends, cancellations, revenue, and ride volume analysis.
 
-### Key Resources Included:
-1. **SQL Queries**: A set of SQL scripts for various analytical tasks.
-2. **Power BI File**: A .pbix file containing interactive dashboards.
-3. **PDF Report**: A detailed project document outlining objectives, methodologies, and results.
+## 🔍 Key Insights
+### **Booking Analysis**
+- **Total Bookings:** 20.41K
+- **Successful Bookings:** 12.65K (62%)
+- **Canceled by Driver:** 3.65K (17.91%)
+- **Canceled by Customer:** 2.08K (10.2%)
+- **Driver Not Found:** 2.02K (9.9%)
+- **Cancellation Rate:** 28.10%
 
-## Analytical Goals
+### **Revenue & Payment Method Analysis**
+- **Total Booking Value:** $7M
+- **Revenue by Payment Method:**
+  - **Cash:** Highest revenue generator
+  - **UPI, Credit Card, Debit Card** contribute significantly to revenue
 
-### SQL Queries:
+### **Ride Volume Trends**
+- **Peak Booking Days:**
+  - Highest booking count fluctuates around **650-700 rides per day**
+- **Ride Distance Trends:**
+  - Analysis shows variations in ride distance across different dates
+
+### **Cancellation Insights**
+- **Customer Cancellations:**
+  - **Main Reasons:** Driver not moving, change of plans, AC not working, wrong address
+- **Driver Cancellations:**
+  - **Main Reasons:** Personal issues, customer-related issues, excessive passengers
+
+## 🚀 Features
+- **Real-time database connectivity** for continuous insights.
+- **Breakdown of successful and canceled rides** by reason.
+- **Analysis of revenue across multiple payment methods.**
+- **Booking trends over time to identify peak periods.**
+
+## SQL Queries:
 1. Retrieve all successful bookings.
 2. Calculate the average ride distance for each vehicle type.
 3. Get the total number of cancelled rides by customers.
@@ -22,27 +48,5 @@ The OLA Data Analyst Project demonstrates a comprehensive approach to analyzing 
 9. Compute the total booking value for successful rides.
 10. List incomplete rides along with their reasons.
 
-### Power BI Dashboards:
-1. **Overall Analysis**:
-   - Ride Volume Over Time
-   - Booking Status Breakdown
-2. **Vehicle Analysis**:
-   - Top 5 Vehicle Types by Ride Distance
-   - Average Customer Ratings by Vehicle Type
-3. **Revenue Analysis**:
-   - Revenue by Payment Method
-   - Top 5 Customers by Total Booking Value
-   - Ride Distance Distribution Per Day
-4. **Cancellations**:
-   - Reasons for Cancellations (Customer and Driver)
-5. **Ratings**:
-   - Driver Ratings Distribution
-   - Customer vs. Driver Ratings
-
-## Prerequisites
-- SQL Database Management System (e.g., MySQL, PostgreSQL)
-- Power BI Desktop
-- Basic understanding of SQL and data visualization
-
-Feel free to reach out for questions or collaboration opportunities!
-
+## 🏆 Conclusion
+This Power BI dashboard provides a detailed look at **OLA ride bookings**, including success rates, cancellations, and revenue. The insights help businesses and analysts track booking behaviors and optimize operations.
